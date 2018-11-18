@@ -3,7 +3,7 @@ project(TypeSpecificPorts)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(TypeSpecificPorts SHARED TypeTemplate.cpp TypeTemplate.h)
+add_library(TypeSpecificPorts SHARED BoolInput.cpp BoolInput.h)
 
 include(cmake/googletest.cmake)
 fetch_googletest(
