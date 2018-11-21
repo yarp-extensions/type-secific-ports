@@ -1,7 +1,7 @@
 add_executable(
         unit_tests
         test_TypeTemplate.cpp
-)
+        ../AppInfo.h test_AppInfo.cpp)
 
 target_link_libraries(
         unit_tests

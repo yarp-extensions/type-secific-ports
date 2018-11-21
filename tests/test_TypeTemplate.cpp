@@ -13,7 +13,6 @@ using namespace ::testing;
 using namespace std;
 #include <typeinfo>
 
-
 const string testPinName = "fooBar";
 class MockTypeTemplate : public BoolInput {
 public:
